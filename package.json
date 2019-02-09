@@ -1,0 +1,24 @@
+{
+  "name": "creatinguserinterfaceswithbulma",
+  "version": "1.0.0",
+  "description": "Working through Creating User Interfaces with Bulma book.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --output-style expanded --include-path=node_modules/bulma sass/custom.scss css/custom.css",
+    "start": "npm run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mterrysancsoft/creatinguserinterfaceswithbulma.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mterrysancsoft/creatinguserinterfaceswithbulma/issues"
+  },
+  "homepage": "https://github.com/mterrysancsoft/creatinguserinterfaceswithbulma#readme",
+  "devDependencies": {
+    "bulma": "^0.7.4",
+    "node-sass": "^4.11.0"
+  }
+}
